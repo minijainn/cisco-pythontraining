@@ -8,8 +8,8 @@ b=10.45
 print(type(b)) #<class 'float'> keyword:float
 print(b)
 #complex datatype
-#x+iy=10+i80
-#print(type(x+iy)) #<class 'float'> keyword:float
+x=10+80j
+print(type(x)) #<class 'float'> keyword:float
 #print(x+iy)
 #string datatype:array of characters keyword:str
 myName="Mini"
@@ -83,4 +83,4 @@ print(type(istrue))
 print(istrue)
 
 
-
+print(4,"Data",123)
