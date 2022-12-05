@@ -178,4 +178,117 @@ print(type(c4))
 print(c4)
 
 
+#and assignment operator(=)
+a=10
+print(a)
+c=a #assigning
+print(c)
+#add and assignment operator(+=)
+c+=a  #c=c+a
+print(c)
 
+#subtract and assignment operator(-=)
+c-=a
+print(c)
+
+x=90
+y=0
+y-=x
+print(y) #-90
+
+#multiply and assignment operator(*=)
+c*=a
+print(c) #100
+
+#divide and assignment operator(/=)
+c/=a
+print(c)
+
+#module and assignment operator(%=)
+a=10
+b=2
+#c=a%b
+b%=a
+print(b)
+
+
+#floor and assignment operator(%=)
+a=10
+b=2
+c=a//b
+print(c)
+
+a=-20
+b=10
+#c=b//a
+b//=a
+print(b)
+
+#exponent and assignment operator(**=)
+a=2
+b=3
+b**=a#(3 power 2)
+print(b)
+
+
+
+#keywords:reserved words
+#variables:
+
+#self learning:
+#arithematic ,comparision, assignment
+#bitwise operator-binary and(&)==> 1&1-->1,0|1,1|0,0|0-->0
+# binary or(|)==>0|1,1|0,1|1-->1,0|0-->0
+# binary xor(^)==>1^1-->0
+# binary ones complementary(~)==>
+
+
+#data typecasting;
+num1=42
+num2="25"
+print(type(num1))
+print(type(num2))
+num2=int(num2)
+print(type(num2))
+ans=num1+num2
+print(type(ans))
+print(ans)
+
+num1=float(input("enter value of num1"))
+num2=float(input("enter value of num2"))
+addans=num1+num2
+print(addans)
+subans=num1-num2
+print(subans)
+mulans=num1*num2
+print(mulans)
+divans=num1/num2
+print(divans)
+modans=num1%num2
+print(modans)
+expans=num1**num2
+print(expans)
+
+
+A=10
+B=5
+print("it is greater",A>B)
+print("it is small",A<B)
+print("it is greater equal",A>=B)
+print("it is small equal",A<=B)
+print("it is equals",A==B)
+print("it is not equals",A!=B)
+
+
+
+#assignment operators
+final=7
+extra=10
+final+=extra
+print(final)
+final-=extra
+print(final)
+final*=extra
+print(final)
+final/=extra
+print(final)
