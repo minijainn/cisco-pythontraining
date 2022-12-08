@@ -1,0 +1,20 @@
+ERROR:root:invalid literal for int() with base 10: 'dtt'
+Traceback (most recent call last):
+  File "C:\Users\mijk\OneDrive - Cisco\Desktop\CX\Python training\cisco-pythontraining\trainings\logging\executefile.py", line 8, in <module>
+    y = int(input("enter sno : "))
+ValueError: invalid literal for int() with base 10: 'dtt'
+ERROR:root:division by zero
+Traceback (most recent call last):
+  File "C:\Users\mijk\OneDrive - Cisco\Desktop\CX\Python training\cisco-pythontraining\trainings\logging\executefile.py", line 9, in <module>
+    print(x/y)
+ZeroDivisionError: division by zero
+ERROR:root:division by zero
+Traceback (most recent call last):
+  File "C:\Users\mijk\OneDrive - Cisco\Desktop\CX\Python training\cisco-pythontraining\trainings\logging\executefile.py", line 9, in <module>
+    print(x/y)
+ZeroDivisionError: division by zero
+ERROR:root:division by zero
+Traceback (most recent call last):
+  File "C:\Users\mijk\OneDrive - Cisco\Desktop\CX\Python training\cisco-pythontraining\trainings\logging\executefile.py", line 9, in <module>
+    print(x/y)
+ZeroDivisionError: division by zero
